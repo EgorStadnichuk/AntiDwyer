@@ -236,12 +236,13 @@ class Feedback:
 
         gamma_zcoord_file = 'GammaZCoordOutput.txt'
         # gamma_energy_file = 'GammaEnergyOutput.txt'
-        # gamma_momentum_file = 'GammaMomentumOutput.txt'
+        gamma_momentum_file = 'GammaMomentumOutput.txt'
 
         secondary_gamma_path = ROOT_PATH + 'output/'
 
         if os.path.exists(secondary_gamma_path + gamma_zcoord_file) and os.stat(secondary_gamma_path + gamma_zcoord_file).st_size != 0:
             secondary_gamma_zcoord_first = np.loadtxt(secondary_gamma_path + gamma_zcoord_file)
+            secondary_gamma_momentum_first = np.loadtxt(secondary_gamma_path + gamma_momentum_file)
         else:
             # if os.path.exists('e-'):
             #     shutil.rmtree('e-')
@@ -258,6 +259,7 @@ class Feedback:
 
         if os.path.exists(primary_gamma_path + gamma_zcoord_file) and os.stat(primary_gamma_path + gamma_zcoord_file).st_size != 0:
             primary_gamma_zcoord_first = np.loadtxt(primary_gamma_path + gamma_zcoord_file)
+            primary_gamma_momentum_first = np.loadtxt(primary_gamma_path + gamma_momentum_file)
         else:
             # if os.path.exists('e-'):
             #     shutil.rmtree('e-')
@@ -292,10 +294,19 @@ class Feedback:
         #    shutil.rmtree('e+')
         # if os.path.exists(ROOT_PATH):
         #    shutil.rmtree(ROOT_PATH)
+        number_of_secondary_gamma = 0
+        for i in range(len(secondary_gamma_momentum_first)):
+            if secondary_gamma_momentum_first[i] < 0:
+                number_of_secondary_gamma = number_of_secondary_gamma + 1
+        number_of_primary_gamma = 0
+        for i in range(len(primary_gamma_momentum_first)):
+            if primary_gamma_momentum_first[i] < 0:
+                number_of_primary_gamma = number_of_primary_gamma + 1
 
-        positron_feedback_coefficient = float(simulation_primary_electron_number) * \
-                                        float(len(secondary_gamma_zcoord_first)) / \
-                                        float(len(primary_gamma_zcoord_first)) / float(simulation_positron_number)
+        print(number_of_primary_gamma)
+        print(number_of_secondary_gamma)
+
+        positron_feedback_coefficient = float(number_of_secondary_gamma) / float(number_of_primary_gamma)
 
         log_file.write('number of primary gamma: ' + str(len(primary_gamma_zcoord_first)))
         log_file.write('feedback coefficient: ' + str(positron_feedback_coefficient))
