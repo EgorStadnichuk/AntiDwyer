@@ -1,0 +1,24 @@
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.647356916261 -0.762187
+/gps/ene/mono 1.3183 MeV
+/gps/position 0. 0. -186.591 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.22375684118 -0.974645
+/gps/ene/mono 2.08565 MeV
+/gps/position 0. 0. -312.794 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.498596847607 -0.866834
+/gps/ene/mono 9.27079 MeV
+/gps/position 0. 0. -187.253 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.126982167941 -0.991905
+/gps/ene/mono 4.7027 MeV
+/gps/position 0. 0. -313.525 m
+/run/beamOn 1

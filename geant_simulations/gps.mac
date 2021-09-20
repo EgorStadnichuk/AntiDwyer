@@ -1,0 +1,5 @@
+/gps/particle ${particle}
+/gps/number 1
+/gps/direction 0 ${momentum_y} ${momentum}
+/gps/ene/mono ${energy} MeV
+/gps/position 0. 0. ${zcoord} m

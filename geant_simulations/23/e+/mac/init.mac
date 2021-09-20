@@ -1,0 +1,4 @@
+/control/macroPath ./gps
+/control/execute gps.mac
+
+/run/beamOn 100

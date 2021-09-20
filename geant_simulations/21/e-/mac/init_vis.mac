@@ -1,0 +1,14 @@
+/vis/open OGL
+
+#/vis/viewer/set/autoRefresh false
+#/vis/verbose errors
+
+/vis/drawVolume worlds
+
+/vis/scene/add/trajectories
+/vis/scene/endOfEventAction accumulate
+/vis/ogl/set/displayListLimit 1000000
+
+/vis/scene/endOfEventAction accumulate 100
+
+/run/beamOn 20

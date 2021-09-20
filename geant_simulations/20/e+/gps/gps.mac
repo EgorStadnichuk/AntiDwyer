@@ -1,0 +1,294 @@
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.0478193607653 -0.998856
+/gps/ene/mono 2.99635 MeV
+/gps/position 0. 0. -323.261 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.173618417891 -0.984813
+/gps/ene/mono 2.68576 MeV
+/gps/position 0. 0. -297.635 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.186172889302 -0.982517
+/gps/ene/mono 0.329214 MeV
+/gps/position 0. 0. -154.827 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.332336167275 -0.943161
+/gps/ene/mono 10.782 MeV
+/gps/position 0. 0. -337.994 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.1550476035 -0.987907
+/gps/ene/mono 4.16241 MeV
+/gps/position 0. 0. -298.169 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.899334652885 -0.437261
+/gps/ene/mono 0.618118 MeV
+/gps/position 0. 0. -336.244 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.263560016981 -0.964643
+/gps/ene/mono 1.52525 MeV
+/gps/position 0. 0. -326.446 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.473060396884 -0.88103
+/gps/ene/mono 2.39838 MeV
+/gps/position 0. 0. -173.512 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.649238367455 0.760585
+/gps/ene/mono 1.9299 MeV
+/gps/position 0. 0. 242.57 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.133193888373 -0.99109
+/gps/ene/mono 6.29749 MeV
+/gps/position 0. 0. -341.256 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.0528776209658 -0.998601
+/gps/ene/mono 3.07695 MeV
+/gps/position 0. 0. -302.182 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.290012029873 -0.957023
+/gps/ene/mono 1.4297 MeV
+/gps/position 0. 0. -208.442 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.408406855966 -0.9128
+/gps/ene/mono 1.46142 MeV
+/gps/position 0. 0. -219.909 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.452715540903 -0.891655
+/gps/ene/mono 0.442017 MeV
+/gps/position 0. 0. -303.025 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.767612691795 -0.640914
+/gps/ene/mono 5.38447 MeV
+/gps/position 0. 0. -339.051 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.528722089547 -0.848795
+/gps/ene/mono 2.75166 MeV
+/gps/position 0. 0. -295.039 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.0182749038575 -0.999833
+/gps/ene/mono 2.44036 MeV
+/gps/position 0. 0. -339.541 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.361897223637 -0.932218
+/gps/ene/mono 2.80723 MeV
+/gps/position 0. 0. -276.747 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.731424901077 -0.681922
+/gps/ene/mono 2.92498 MeV
+/gps/position 0. 0. -301.684 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.514237209949 -0.857648
+/gps/ene/mono 1.17159 MeV
+/gps/position 0. 0. -333.568 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.734602248837 0.678498
+/gps/ene/mono 0.311462 MeV
+/gps/position 0. 0. -324.148 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.145936224304 -0.989294
+/gps/ene/mono 27.2134 MeV
+/gps/position 0. 0. -253.111 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.351345168579 -0.936246
+/gps/ene/mono 0.615847 MeV
+/gps/position 0. 0. -265.62 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.227774112234 -0.973714
+/gps/ene/mono 5.89408 MeV
+/gps/position 0. 0. -249.088 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.295253339421 -0.955419
+/gps/ene/mono 10.802 MeV
+/gps/position 0. 0. -306.659 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.387039822281 -0.922063
+/gps/ene/mono 5.95897 MeV
+/gps/position 0. 0. -226.162 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.569679413628 -0.821867
+/gps/ene/mono 1.10142 MeV
+/gps/position 0. 0. -299.134 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.106506556869 -0.994312
+/gps/ene/mono 11.0117 MeV
+/gps/position 0. 0. -345.91 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.139379779305 -0.990239
+/gps/ene/mono 4.20473 MeV
+/gps/position 0. 0. -311.424 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.381693390667 -0.924289
+/gps/ene/mono 2.1672 MeV
+/gps/position 0. 0. -162.797 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.095316683697 -0.995447
+/gps/ene/mono 6.08352 MeV
+/gps/position 0. 0. -302.587 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.4727958401 -0.881172
+/gps/ene/mono 4.48179 MeV
+/gps/position 0. 0. -296.363 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.220910872444 -0.975294
+/gps/ene/mono 5.40264 MeV
+/gps/position 0. 0. -326.543 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.220579495509 -0.975369
+/gps/ene/mono 1.6787 MeV
+/gps/position 0. 0. -263.925 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.274363693159 -0.961626
+/gps/ene/mono 1.65489 MeV
+/gps/position 0. 0. -176.894 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.385320042187 -0.922783
+/gps/ene/mono 2.79965 MeV
+/gps/position 0. 0. -342.174 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.273285388396 -0.961933
+/gps/ene/mono 1.67893 MeV
+/gps/position 0. 0. -311.258 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.339918215127 -0.940455
+/gps/ene/mono 0.756624 MeV
+/gps/position 0. 0. -262.845 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.159802540027 -0.987149
+/gps/ene/mono 15.3885 MeV
+/gps/position 0. 0. -227.352 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.690488887927 -0.723343
+/gps/ene/mono 11.4452 MeV
+/gps/position 0. 0. -201.147 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.479322214882 -0.877639
+/gps/ene/mono 2.19167 MeV
+/gps/position 0. 0. -272.385 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.202805695282 -0.979219
+/gps/ene/mono 7.19833 MeV
+/gps/position 0. 0. -298.714 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.131930265364 -0.991259
+/gps/ene/mono 1.62051 MeV
+/gps/position 0. 0. -328.366 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.348674180954 -0.937244
+/gps/ene/mono 4.15867 MeV
+/gps/position 0. 0. -345.378 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.0380982010599 -0.999274
+/gps/ene/mono 1.06606 MeV
+/gps/position 0. 0. -273.785 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.629436406078 -0.777052
+/gps/ene/mono 1.64724 MeV
+/gps/position 0. 0. -321.856 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.245557606431 -0.969382
+/gps/ene/mono 5.55303 MeV
+/gps/position 0. 0. -336.762 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.323439066903 -0.946249
+/gps/ene/mono 1.18657 MeV
+/gps/position 0. 0. -335.429 m
+/run/beamOn 1
+/gps/particle e+
+/gps/number 1
+/gps/direction 0 0.247119545514 -0.968985
+/gps/ene/mono 0.893573 MeV
+/gps/position 0. 0. -270.819 m
+/run/beamOn 1

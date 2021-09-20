@@ -1,0 +1,13 @@
+feedback particle: positron
+physics: G4EmStandartPhysics_option4
+electric field (MV per mm): 0.0002
+cell length (m): 650
+air density (g per cm3): 0.000414
+primary electron energy (MeV):3
+part of cell for feedback: 0.12142857142857143
+electron energy cut (MeV): 0.1
+electron start coordinate z: 0.0
+number of primary electrons: 1
+number of positrons: 3
+number of secondary electrons: 26
+feedback coefficient: 0.06395348837209303

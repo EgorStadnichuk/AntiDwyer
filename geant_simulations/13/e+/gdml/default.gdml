@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<gdml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="../schema/gdml.xsd">
+    <define>
+        <quantity value="700" name="worldWidth" unit="m"/>
+        <quantity value="700" name="worldHeigth" unit="m"/>
+        <quantity value="700" name="cellWidth" unit="m"/>
+        <quantity value="700" name="cellHeigth" unit="m"/>
+        <position name="centerPos"/>
+        <position name="cellPos" z="0"/>
+    </define>
+    <materials>
+        <material formula="air" name="Custom_AIR" >
+            <D value="0.000414" />
+            <fraction n="0.79" ref="N" />
+            <fraction n="0.21" ref="O" />
+        </material>
+    </materials>
+    <solids>
+        <box name="world" x="worldWidth" y="worldWidth" z="worldHeigth"/>
+        <box name="cell" x="cellWidth" y="cellWidth" z="cellHeigth" />
+    </solids>
+    <structure>
+        <volume name="Cell">
+            <materialref ref="Custom_AIR"/>
+            <solidref ref="cell"/>
+            <auxiliary auxtype="ElectricField" auxvalue="UniformZ1">
+                    <auxiliary auxtype="Ex" auxvalue="0"/>
+                    <auxiliary auxtype="Ey" auxvalue="0"/>
+                    <auxiliary auxtype="Ez" auxvalue="0.0002"/>
+            </auxiliary>
+        </volume>
+
+        <volume name="World">
+            <materialref ref="Custom_AIR"/>
+            <solidref ref="world"/>
+            <physvol>
+                <volumeref ref="Cell"/>
+                <positionref ref="cellPos"/>
+            </physvol>
+
+        </volume>
+    </structure>
+    <setup name="test" version="1.0">
+        <world ref="World"/>
+    </setup>
+</gdml>
